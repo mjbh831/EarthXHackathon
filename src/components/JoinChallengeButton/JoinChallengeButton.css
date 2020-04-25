@@ -1,0 +1,17 @@
+.join{
+	height: 7vh;
+	width: 30vw;
+	background-color:  #80C359;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: .8em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	-webkit-box-shadow: 17px 10px 42px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 17px 10px 42px -20px rgba(0,0,0,0.75);
+	box-shadow: 17px 10px 42px -20px rgba(0,0,0,0.75); 
+	margin-bottom: 5%;
+}
