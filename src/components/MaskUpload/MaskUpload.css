@@ -1,0 +1,66 @@
+.mask-upload{
+	width: 100%;
+	height: 100vh;
+	background: rgb(216,38,38);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.up-logo{
+	width: 70%;
+	padding: 5%;
+}
+.exit{
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	color: rgba(255,255,255,.5);
+	font-size: 1.5em;
+}
+.exit:hover{
+	cursor: pointer;
+}
+.upload{
+	position: relative;
+	width: 90%;
+	height: 80%;
+	background-color: #fff;
+	border-radius: 30px;
+	margin-bottom: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	-webkit-box-shadow: 17px 10px 42px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 17px 10px 42px -20px rgba(0,0,0,0.75);
+	box-shadow: 17px 10px 42px -20px rgba(0,0,0,0.75); 
+}
+.submit-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	padding: 5%;
+}
+.submit-text-sub{
+	text-align: left;
+	padding: 2% 5% 10% 5%;
+}
+.upload-box{
+	position: absolute;
+	width: 90%;
+	bottom: 5%;
+	height: 40vh;
+	border-radius: 30px;
+	border: dashed 2px #D7CAE6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.up-text{
+	text-transform: uppercase;
+	color: rgba(0,0,0,.3);
+	letter-spacing: .3em;
+}
+.img-input{
+	width: 80%;
+	margin: 0 0 5% 0;
+}

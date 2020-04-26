@@ -2,14 +2,14 @@ import React from 'react';
 import './Challenge.css';
 import JoinChallengeButton from './../JoinChallengeButton/JoinChallengeButton';
 
-function Challenge3 () {
-	const description = 'We’re reaching out to strengthen neighborhoods every way we can. That’s why State Farm® teamed up with Brendon Urie, DrLupo, and other gamers to stream for charities. It all started at TwitchCon 2019. Follow these streamers to find out how we can all make a difference – together.';
+function Challenge5 () {
+	const description = 'Watch this short series to learn how music education boosts academic achievement. With the help of Notes for Notes and Brendon Urie of Panic! At The Disco, we’re building studios, mentoring young artists, and rallying the support of festivalgoers to share the power of music with more youth in more communities.';
 	const challenge = {
-		name: 'Twitch Charity Streamers',
-		startDate: 'Start Date: May16th, 2020',
-		timeRemaining: 'Duration: 3 week',
+		name: 'Get Inspired',
+		startDate: 'Start Date: May 13th, 2020',
+		timeRemaining: 'Duration: 1 week',
 		description: description,
-		pointValue: 1000
+		pointValue: 1500
 	}
 
 		return (
@@ -34,4 +34,4 @@ function Challenge3 () {
 		);
 }
 
-export default Challenge3;
+export default Challenge5;

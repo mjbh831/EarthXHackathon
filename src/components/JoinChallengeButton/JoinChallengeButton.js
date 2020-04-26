@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './JoinChallengeButton.css'
 
 function JoinChallengeButton () {
-
 		return (
 			<div className= 'join'>
 				Join Challenge

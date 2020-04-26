@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Challenge.css';
 import JoinChallengeButton from './../JoinChallengeButton/JoinChallengeButton';
 
 function Challenge () {
-
-	const description = 'GEOFENCING sit amet, consectetur adagdfafd a sdf afasd asf af ipisicing elit. Recusandae nostrum optio ipsam hic ipsa. Ab iusto voluptatem, harum nemo distinctio! Impedit doloremque, officia vero hic ut repellat fuga obcaecati!';
-	const challenge = {
+	const description = `There's no place like home! And State Farm is rewarding those who are staying put and avoiding public places during the COVID-19 pandemic. This challenge uses geo-fencing technology on your mobile device to track time away from home. Who said you couldn't save money just sitting on the couch?`
+		const challenge = {
 		name: 'Home Base',
 		startDate: 'Start Date: May 1st, 2020',
 		timeRemaining: 'Duration: 2 weeks',

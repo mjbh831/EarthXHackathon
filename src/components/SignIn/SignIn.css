@@ -11,10 +11,10 @@
 	align-items: flex-start;
 	justify-content: space-around;
 	box-sizing: border-box;
-	padding: 0 3% 0 3%;
+	padding: 0 3% 2% 3%;
 	color: #C6C6C6;
 }
-.title{
+.si-title{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
@@ -79,6 +79,9 @@ hr{
 	top: -10%;
 	color: #FC5D5E;
 }
+.trbl-text{
+	font-size: .7em;
+}
 .login{
 	width: 100%;
 	background-color: #4B6F86;
@@ -88,5 +91,7 @@ hr{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	outline: none;
+	border: none;
 }
 

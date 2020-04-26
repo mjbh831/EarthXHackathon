@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Challenge.css';
 import JoinChallengeButton from './../JoinChallengeButton/JoinChallengeButton';
 
 function Challenge4 () {
-
-	const description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nostrum optio ipsam hic ipsa. Ab iusto voluptatem, harum nemo distinctio! Impedit doloremque, officia vero hic ut repellat fuga obcaecati!';
+	const description = `It's hard to be without power, internet, or running water. But we know in an emergency anything can happen. Learn the value of having a family emergency plan and building a home emergency kit. Then upload a photo of your new kit and tell us whats the one non-essential item you just can't live without. Bonus: Hashtag #StateFarmCommunity on your social media post for an additional 500 points!`;
 	const challenge = {
-		name: `Boy Scout`,
+		name: `Be Prepared`,
 		startDate: 'Start Date: May 26th, 2020',
 		timeRemaining: 'Duration: 1 week',
 		description: description,
-		pointValue: 1500
+		pointValue: 500
 	}
 
 		return (

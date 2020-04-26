@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Challenge.css';
 import JoinChallengeButton from './../JoinChallengeButton/JoinChallengeButton';
 
 function Challenge2 () {
-
-	const description = 'UPLOAD IMAGE dolor sit amet, consectetur adipisicing elit. Recusandae nostrum optio ipsam hic ipsa. Ab iusto voluptatem, harum nemo distinctio! Impedit doloremque, officia vero hic ut repellat fuga obcaecati!';
+	const description = `The CDC recommends wearing cloth face coverings in public settings where other social distancing measures are difficult to maintain (e.g., grocery stores and pharmacies). Get creative and upload your DIY mask photo for some easy points. Bonus: Hashtag #StateFarmCommunity on your social media post for an additional 500 points!`;
 	const challenge = {
 		name: 'The Mask',
 		startDate: 'Start Date: April 28th, 2020',
