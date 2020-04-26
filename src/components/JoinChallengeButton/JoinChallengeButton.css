@@ -1,7 +1,7 @@
 .join{
 	height: 7vh;
 	width: 30vw;
-	background-color:  #80C359;
+	background-color:  rgb(216,38,38);
 	border-radius: 10px;
 	display: flex;
 	justify-content: center;

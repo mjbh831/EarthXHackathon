@@ -52,8 +52,13 @@ class App extends React.Component {
               <Challenge3 />
               <Challenge4 />
               <Challenge5 />
-          </div>
+            </div>
         }
+
+        {
+          // <MaskUpload />
+        }
+
         </div>
       );
   }
